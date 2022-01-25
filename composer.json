@@ -1,0 +1,28 @@
+{
+  "name": "gildrd/exif-analyser",
+  "type": "library",
+  "description": "A simple tool to analyse and normalize exifs",
+  "authors": [
+    {
+      "name": "Gilles Durand",
+      "email": "gilles.drd@protonmail.com",
+      "role": "Developper"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "GilDrd\\ExifAnalyser\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GilDrd\\ExifAnalyser\\Tests\\": "tests/"
+    }
+  }
+}
